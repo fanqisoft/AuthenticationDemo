@@ -9,5 +9,6 @@ namespace CookiesDemo.Services
     public interface IUserService
     {
         User FindUser(string username, string password);
+        bool ValidateChanged(int id,string version);
     }
 }

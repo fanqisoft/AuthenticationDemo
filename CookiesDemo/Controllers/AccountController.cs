@@ -46,6 +46,7 @@ namespace CookiesDemo.Controllers
                 //claimIdentity.AddClaim(new Claim(ClaimTypes.Name,user.Name));
                 //claimIdentity.AddClaim(new Claim(ClaimTypes.MobilePhone, user.Phone));
                 //claimIdentity.AddClaim(new Claim(ClaimTypes.Email, user.Email));
+
                 //使用JwtClaimTypes替换Microsoft内置的ClaimTypes
 
                 var claimIdentity = new ClaimsIdentity(CookieAuthenticationDefaults.AuthenticationScheme,JwtClaimTypes.Name,JwtClaimTypes.Role);
@@ -53,9 +54,13 @@ namespace CookiesDemo.Controllers
                 claimIdentity.AddClaim(new Claim(JwtClaimTypes.Name, user.Name));
                 claimIdentity.AddClaim(new Claim(JwtClaimTypes.PhoneNumber, user.Phone));
                 claimIdentity.AddClaim(new Claim(JwtClaimTypes.Email, user.Email));
+                claimIdentity.AddClaim(new Claim("Version", user.Version));
                 var claimsPrincipal = new ClaimsPrincipal(claimIdentity);
 
-                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, claimsPrincipal);
+                AuthenticationProperties properties = new AuthenticationProperties();
+                properties.IsPersistent = true; //设置Cookie是否持久保存
+                properties.ExpiresUtc = DateTime.Now.AddMinutes(20);    //设置过期时间
+                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, claimsPrincipal,properties);
                 if (string.IsNullOrEmpty(ReturnUrl))
                 {
                     return RedirectToAction("Index", "Home");

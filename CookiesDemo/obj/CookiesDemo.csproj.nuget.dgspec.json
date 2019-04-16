@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fanqi\\source\\repos\\AuthenticationDemo\\CookiesDemo\\CookiesDemo.csproj": {}
+    "D:\\coreqi\\AuthenticationDemo\\CookiesDemo\\CookiesDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fanqi\\source\\repos\\AuthenticationDemo\\CookiesDemo\\CookiesDemo.csproj": {
+    "D:\\coreqi\\AuthenticationDemo\\CookiesDemo\\CookiesDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fanqi\\source\\repos\\AuthenticationDemo\\CookiesDemo\\CookiesDemo.csproj",
+        "projectUniqueName": "D:\\coreqi\\AuthenticationDemo\\CookiesDemo\\CookiesDemo.csproj",
         "projectName": "CookiesDemo",
-        "projectPath": "C:\\Users\\fanqi\\source\\repos\\AuthenticationDemo\\CookiesDemo\\CookiesDemo.csproj",
+        "projectPath": "D:\\coreqi\\AuthenticationDemo\\CookiesDemo\\CookiesDemo.csproj",
         "packagesPath": "C:\\Users\\fanqi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fanqi\\source\\repos\\AuthenticationDemo\\CookiesDemo\\obj\\",
+        "outputPath": "D:\\coreqi\\AuthenticationDemo\\CookiesDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -71,6 +71,10 @@
             },
             "Microsoft.AspNetCore.Razor.Design": {
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
