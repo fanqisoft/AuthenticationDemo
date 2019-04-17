@@ -20,3 +20,11 @@ D:\coreqi\AuthenticationDemo\OidcClientDemo\obj\Debug\netcoreapp2.2\Razor\Views\
 D:\coreqi\AuthenticationDemo\OidcClientDemo\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
 D:\coreqi\AuthenticationDemo\OidcClientDemo\obj\Debug\netcoreapp2.2\OidcClientDemo.RazorTargetAssemblyInfo.cache
 D:\coreqi\AuthenticationDemo\OidcClientDemo\obj\Debug\netcoreapp2.2\OidcClientDemo.RazorTargetAssemblyInfo.cs
+D:\coreqi\AuthenticationDemo\OidcClientDemo\obj\Debug\netcoreapp2.2\OidcClientDemo.csprojAssemblyReference.cache
+D:\coreqi\AuthenticationDemo\OidcClientDemo\bin\Debug\netcoreapp2.2\OidcClientDemo.pdb
+D:\coreqi\AuthenticationDemo\OidcClientDemo\bin\Debug\netcoreapp2.2\OidcClientDemo.Views.dll
+D:\coreqi\AuthenticationDemo\OidcClientDemo\bin\Debug\netcoreapp2.2\OidcClientDemo.Views.pdb
+D:\coreqi\AuthenticationDemo\OidcClientDemo\obj\Debug\netcoreapp2.2\OidcClientDemo.Views.pdb
+D:\coreqi\AuthenticationDemo\OidcClientDemo\obj\Debug\netcoreapp2.2\OidcClientDemo.dll
+D:\coreqi\AuthenticationDemo\OidcClientDemo\obj\Debug\netcoreapp2.2\OidcClientDemo.pdb
+D:\coreqi\AuthenticationDemo\OidcClientDemo\obj\Debug\netcoreapp2.2\OidcClientDemo.csproj.CopyComplete
