@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Oidc", "Oidc", "{1F442B28-6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OidcClientDemo", "OidcClientDemo\OidcClientDemo.csproj", "{6E9F6C02-4E99-4FF6-A855-0910C7373A72}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JwtBearer", "JwtBearer", "{AB91EC80-DD94-422F-B9A9-4034F58D83C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtBearerDemo", "JwtBearerDemo\JwtBearerDemo.csproj", "{5F12BCF1-B73D-41D1-9BDB-49F0148709D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,10 @@ Global
 		{6E9F6C02-4E99-4FF6-A855-0910C7373A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E9F6C02-4E99-4FF6-A855-0910C7373A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E9F6C02-4E99-4FF6-A855-0910C7373A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F12BCF1-B73D-41D1-9BDB-49F0148709D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F12BCF1-B73D-41D1-9BDB-49F0148709D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F12BCF1-B73D-41D1-9BDB-49F0148709D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F12BCF1-B73D-41D1-9BDB-49F0148709D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +49,7 @@ Global
 		{C797BD87-320A-471A-BA75-75AAC0058F20} = {46C534F6-AD25-4EED-8A11-2651672167D2}
 		{F8C67EC3-3950-4592-B2E8-747C821FC116} = {5AD73127-E5D7-4472-AD8A-85BD8E0333DA}
 		{6E9F6C02-4E99-4FF6-A855-0910C7373A72} = {1F442B28-6C6A-4273-BBCB-977193A53004}
+		{5F12BCF1-B73D-41D1-9BDB-49F0148709D1} = {AB91EC80-DD94-422F-B9A9-4034F58D83C2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {35D7FCC4-CA59-4CCD-99AC-4DC99526B235}
