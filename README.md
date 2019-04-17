@@ -1,4 +1,6 @@
 # AuthenticationDemo
 ASP.NET Core Authentication Demo
 
-没啥可说的
+一些Asp.Net Core中常见的认证与授权方式的Demo演示
+
+基于Asp.Net Core2.2构建
