@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookiesDemo", "CookiesDemo\CookiesDemo.csproj", "{C797BD87-320A-471A-BA75-75AAC0058F20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CookiesDemo", "CookiesDemo\CookiesDemo.csproj", "{C797BD87-320A-471A-BA75-75AAC0058F20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cookies", "Cookies", "{46C534F6-AD25-4EED-8A11-2651672167D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OAuth", "OAuth", "{5AD73127-E5D7-4472-AD8A-85BD8E0333DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuthClientDemo", "OAuthClientDemo\OAuthClientDemo.csproj", "{F8C67EC3-3950-4592-B2E8-747C821FC116}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,17 @@ Global
 		{C797BD87-320A-471A-BA75-75AAC0058F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C797BD87-320A-471A-BA75-75AAC0058F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C797BD87-320A-471A-BA75-75AAC0058F20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8C67EC3-3950-4592-B2E8-747C821FC116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C67EC3-3950-4592-B2E8-747C821FC116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C67EC3-3950-4592-B2E8-747C821FC116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C67EC3-3950-4592-B2E8-747C821FC116}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C797BD87-320A-471A-BA75-75AAC0058F20} = {46C534F6-AD25-4EED-8A11-2651672167D2}
+		{F8C67EC3-3950-4592-B2E8-747C821FC116} = {5AD73127-E5D7-4472-AD8A-85BD8E0333DA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {35D7FCC4-CA59-4CCD-99AC-4DC99526B235}
