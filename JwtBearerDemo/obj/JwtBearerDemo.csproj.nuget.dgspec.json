@@ -47,6 +47,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "IdentityModel": {
+              "target": "Package",
+              "version": "[3.10.7, )"
+            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -67,6 +71,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
             }
           },
           "imports": [

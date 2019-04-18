@@ -21,3 +21,10 @@ D:\coreqi\AuthenticationDemo\JwtBearerDemo\obj\Debug\netcoreapp2.2\Razor\Views\_
 D:\coreqi\AuthenticationDemo\JwtBearerDemo\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
 D:\coreqi\AuthenticationDemo\JwtBearerDemo\obj\Debug\netcoreapp2.2\JwtBearerDemo.RazorTargetAssemblyInfo.cache
 D:\coreqi\AuthenticationDemo\JwtBearerDemo\obj\Debug\netcoreapp2.2\JwtBearerDemo.RazorTargetAssemblyInfo.cs
+D:\coreqi\AuthenticationDemo\JwtBearerDemo\bin\Debug\netcoreapp2.2\JwtBearerDemo.pdb
+D:\coreqi\AuthenticationDemo\JwtBearerDemo\bin\Debug\netcoreapp2.2\JwtBearerDemo.Views.dll
+D:\coreqi\AuthenticationDemo\JwtBearerDemo\bin\Debug\netcoreapp2.2\JwtBearerDemo.Views.pdb
+D:\coreqi\AuthenticationDemo\JwtBearerDemo\obj\Debug\netcoreapp2.2\JwtBearerDemo.Views.pdb
+D:\coreqi\AuthenticationDemo\JwtBearerDemo\obj\Debug\netcoreapp2.2\JwtBearerDemo.dll
+D:\coreqi\AuthenticationDemo\JwtBearerDemo\obj\Debug\netcoreapp2.2\JwtBearerDemo.pdb
+D:\coreqi\AuthenticationDemo\JwtBearerDemo\obj\Debug\netcoreapp2.2\JwtBearerDemo.csproj.CopyComplete
