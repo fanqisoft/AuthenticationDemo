@@ -61,6 +61,30 @@ namespace JwtBearerDemo
                     // 是否验证Token有效期，使用当前时间与Token的Claims中的NotBefore和Expires对比
                     // ValidateLifetime = true
                 };
+                j.Events = new JwtBearerEvents()
+                {
+                    OnMessageReceived = context =>
+                    {
+                        context.Token = context.Request.Query["access_token"];
+                        return Task.CompletedTask;
+                    },
+                    OnTokenValidated = context =>   //Token验证通过后调用
+                    {
+                        return Task.CompletedTask;
+                    },
+                    OnAuthenticationFailed = context =>     //Token认证失败时调用
+                    {
+                        return Task.CompletedTask;
+                    },
+                    OnChallenge = context =>        //未授权时调用
+                    {
+                        return Task.CompletedTask;
+                    }
+                };
+                j.TokenValidationParameters = new TokenValidationParameters()
+                {
+
+                };
             });
 
             //services.Configure<CookiePolicyOptions>(options =>
